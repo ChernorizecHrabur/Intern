@@ -3,8 +3,13 @@
         font-size: 0.8rem;
     }
 }
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: Semibold;
+    background-color: #f7f8f9;
+}
 .header-subtitle{
-    color: #666666;
+    color: #949494;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
@@ -13,11 +18,11 @@
     transition: all 0.3s ease;
 }
 .noUnderline:hover {
-    color: #ff6347;
+    color: #3643ba;
     transform: scale(1.1);
 }
 .row em {
-    color: #0082c3;
+    color: #3643ba;
     font-style: normal;
 }
 .nodecoration{
@@ -31,13 +36,13 @@
     letter-spacing: 0.02em;
 }
 .nodecoration:hover{
-    color: #0082c3;
+    color: #3643ba;
 }
 .card.shadow-hover {
     transition: box-shadow .3s ease-in-out;
 }
 .card.shadow-hover:hover {
-    box-shadow: 0 0 40px rgba(22, 22, 253, 0.275); 
+    box-shadow: 0 0 40px #3643ba; 
 }
 .card-img-top {
     width: 100%;
@@ -90,4 +95,10 @@
 }
 .container{
     margin-bottom:50px;
+}
+.rounded{
+    border-radius: 10px;
+}
+.header-subtitle .gr{
+    color: #7affa6;
 }
